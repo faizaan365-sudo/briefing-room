@@ -1,0 +1,17 @@
+{
+  "name": "Briefing Rooms",
+  "short_name": "Briefing Rooms",
+  "description": "A corporate law firm simulator: run M&A deals, chat rooms, depositions, and an AI legal associate.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07080c",
+  "theme_color": "#101a2e",
+  "icons": [
+    {"src": "https://pub.hyperagent.com/api/published/pbf01M0C48TC5_NKC6638BPRY0NP1X/br-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "https://pub.hyperagent.com/api/published/pbf01M0C48TKH_XMRKK1Z6C77J8RY1/br-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "https://pub.hyperagent.com/api/published/pbf01M0C48TKH_XMRKK1Z6C77J8RY1/br-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
