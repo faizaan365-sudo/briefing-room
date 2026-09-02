@@ -1,5 +1,5 @@
-const C="briefing-rooms-v1";
-self.addEventListener("install",e=>{ self.skipWaiting(); e.waitUntil(caches.open(C).then(c=>c.addAll(["./","./index.html","./manifest.json"]).catch(()=>{}))); });
+const C="briefing-rooms-v3";
+self.addEventListener("install",e=>{ self.skipWaiting(); e.waitUntil(caches.open(C).then(c=>c.addAll(["./","./index.html","./manifest.json","./br-icon-192.png","./br-icon-512.png","./customize.html"]).catch(()=>{}))); });
 self.addEventListener("activate",e=>{ e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim())); });
 self.addEventListener("fetch",e=>{
   if(e.request.method!=="GET") return;
